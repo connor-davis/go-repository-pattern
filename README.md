@@ -41,7 +41,6 @@ Here's a quick tour of the project structure:
 - `cmd/todos/main.go`: The entry point of the application.
 - `repository/`: Contains the repository interfaces and their implementations.
   - `postgres/`: Contains the PostgreSQL specific implementations.
-    - `db.go`: Contains the database connection and query methods.
 - `services/`: Contains the business logic that uses the repositories.
   - `todos.go`: Contains the implementation of the todos service.
 
