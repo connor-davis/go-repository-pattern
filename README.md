@@ -41,9 +41,9 @@ Here's a quick tour of the project structure:
 - `cmd/todos/main.go`: The entry point of the application.
 - `repository/`: Contains the repository interfaces and their implementations.
   - `postgres/`: Contains the PostgreSQL specific implementations.
-- `services/`: Contains the business logic that uses the repositories.
-  - `todos.go`: Contains the implementation of the todos service.
-- `api/`: Contains the gofiber api implementation.
+  - `api/`: Contains the gofiber api implementation.
+  - `services/`: Contains the business logic that uses the repositories.
+    - `todos.go`: Contains the implementation of the todos service.
 
 ### Example
 
