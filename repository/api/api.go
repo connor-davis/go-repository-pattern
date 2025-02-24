@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/connor-davis/repository-pattern/internal/api/routes"
-	"github.com/connor-davis/repository-pattern/internal/services"
+	"github.com/connor-davis/repository-pattern/repository/api/routes"
+	"github.com/connor-davis/repository-pattern/repository/services"
 	"github.com/gofiber/fiber/v2"
 )
 

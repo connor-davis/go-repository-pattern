@@ -3,7 +3,7 @@ package todos
 import (
 	"strconv"
 
-	"github.com/connor-davis/repository-pattern/internal/postgres"
+	"github.com/connor-davis/repository-pattern/repository/postgres"
 	"github.com/gofiber/fiber/v2"
 )
 

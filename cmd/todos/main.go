@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/connor-davis/repository-pattern/internal/api"
-	"github.com/connor-davis/repository-pattern/internal/postgres"
-	"github.com/connor-davis/repository-pattern/internal/services"
+	"github.com/connor-davis/repository-pattern/repository/api"
+	"github.com/connor-davis/repository-pattern/repository/postgres"
+	"github.com/connor-davis/repository-pattern/repository/services"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/jackc/pgx/v5"

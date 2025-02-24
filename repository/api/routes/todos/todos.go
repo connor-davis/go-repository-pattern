@@ -1,7 +1,7 @@
 package todos
 
 import (
-	"github.com/connor-davis/repository-pattern/internal/services"
+	"github.com/connor-davis/repository-pattern/repository/services"
 	"github.com/gofiber/fiber/v2"
 )
 

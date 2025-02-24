@@ -3,7 +3,7 @@ package services
 import (
 	"context"
 
-	"github.com/connor-davis/repository-pattern/internal/postgres"
+	"github.com/connor-davis/repository-pattern/repository/postgres"
 )
 
 type TodosService struct {
