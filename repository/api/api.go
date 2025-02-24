@@ -18,7 +18,7 @@ func NewApi(router fiber.Router, todosService services.TodosService) *Api {
 	}
 }
 
-func (api *Api) Setup() {
-	r := routes.NewRoutes(api.router, api.todosService)
+func (a *Api) Setup() {
+	r := routes.NewRoutes(a.router, a.todosService)
 	r.Setup()
 }
