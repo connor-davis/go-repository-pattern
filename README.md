@@ -43,6 +43,7 @@ Here's a quick tour of the project structure:
   - `postgres/`: Contains the PostgreSQL specific implementations.
 - `services/`: Contains the business logic that uses the repositories.
   - `todos.go`: Contains the implementation of the todos service.
+- `api/`: Contains the gofiber api implementation.
 
 ### Example
 
