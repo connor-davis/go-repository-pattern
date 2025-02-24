@@ -28,20 +28,20 @@ func run() error {
 	// Initialize the services
 	todosService := services.NewTodosService(queries)
 
-	// Initialize the Fiber app
-	app := fiber.New(fiber.Config{
+	// Initialize the Fiber router
+	router := fiber.New(fiber.Config{
 		AppName:           "Todos API",
 		ReduceMemoryUsage: true,
 		Prefork:           true,
 	})
 
-	app.Use(logger.New())
+	router.Use(logger.New())
 
 	// Initialize the API
-	api := api.NewApi(app, *todosService)
+	api := api.NewApi(router, *todosService)
 	api.Setup()
 
-	return app.Listen(":3000")
+	return router.Listen(":3000")
 }
 
 func main() {
